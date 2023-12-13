@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+
+}
+h1 {
+    font-family: 'Playfair Display', serif; 
+    font-size: 50px; /* Pilih ukuran font yang diinginkan */
+    font-weight: bold; /* Pilih ketebalan font yang diinginkan */
+    text-align: center; /* Pilih penataan teks yang diinginkan */
+    color: wheat; /* Pilih warna teks yang diinginkan */
+}
+p {
+    font-family: 'Lato', sans-serif; /* Pilih jenis font yang diinginkan */
+    font-size: 20px; /* Pilih ukuran font yang diinginkan */
+    font-weight: normal; /* Pilih ketebalan font yang diinginkan */
+    text-align: center; /* Pilih penataan teks yang diinginkan */
+    color: whitesmoke; /* Pilih warna teks yang diinginkan */
+    text-transform: capitalize;
+}
+header img {
+    width: 50px;
+    height: auto;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+
+header {
+    background-color:grey;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    font-style: Garamond; /* Gaya tulisan, bisa 'italic', 'normal', dsb. */
+    font-family: Arial, Helvetica, sans-serif; /* Jenis font, urutkan sesuai preferensi Anda */
+    font-weight: bold; /* Ketebalan tulisan, bisa 'normal', 'bold', dsb. */
+    font-size: 16px; /* Ukuran tulisan, sesuaikan dengan preferensi Anda */
+    letter-spacing: 10px; /* Jarak antar huruf */
+    line-height: 1.5; /* Tinggi baris, sesuaikan dengan preferensi Anda */
+    
+
+}
+
+
+ul{
+    padding-left: 50px; 
+ }   
+
+nav ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 20px;
+    word-spacing: 325px;
+    color: blue;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+main{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.warna-merah {
+    color: rgb(14, 12, 12);
+  }
+
+.product {
+    border: 1px solid #0c0a0a;
+    background-color: skyblue;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    width: 30%;
+    text-align: center; 
+    font-family: 'Open Sans', sans-serif;
+}
+.product p {
+    border: 1px solid #0c0a0a; /* Gaya kotak pada tulisan deskripsi */
+    padding: 10px; /* Padding agar tulisan tidak terlalu dekat dengan border */
+    color: black /* Pilih warna teks yang diinginkan */
+}
+
+.product img {
+    max-width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+footer {
+    background-color: wheat;
+    color: blueviolet;
+    padding: 10px;
+    text-align: left;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+footer {
+    text-align: left;
+    color: black; /* Pilih warna teks yang diinginkan */
+}
+
+
+
+    
+
